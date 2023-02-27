@@ -1,0 +1,58 @@
+/* set the font family and size for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* style the table header */
+th {
+  border: 1px solid #999999;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+/* style the table cells */
+td {
+  border: 1px solid #999999;
+  padding: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* style the first row of the table as a header */
+tr:first-child {
+  font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* style the input box */
+input[type="text"] {
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+}
+
+/* style the input box on focus */
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
