@@ -24,7 +24,6 @@ function filterItems(items) {
   return filteredItems;
 }
 
-// Example usage:
 const filteredItems = filterItems(itemsObject);
 console.log(filteredItems);
 
@@ -47,7 +46,6 @@ function cleanString(str) {
   return spaceStr.replace(/\s+/g, " ");
 }
 
-// Example usage:
 const string =
   " Perhaps The Easiest-to-understand   Case   For Reduce Is   To Return The Sum Of  All The Elements In  An Array  ";
 
