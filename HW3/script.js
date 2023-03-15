@@ -131,7 +131,7 @@ const phoneData = document.getElementById("studentPhone");
 const addressData = document.getElementById("studentAddress");
 
 formInput.addEventListener("submit", (event) => {
-  event.preventDefault(); // prevent the form from submitting
+  event.preventDefault(); 
 
   const nameValue = nameData.value;
   const ageValue = ageData.value;
